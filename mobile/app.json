@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "AegisCart",
+    "slug": "aegiscart",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "AegisCart needs your photo library so you can pick a photo for Virtual Try-On.",
+          "cameraPermission": "AegisCart needs your camera so you can take a photo for Virtual Try-On."
+        }
+      ]
+    ],
+    "android": { "permissions": ["CAMERA"] }
+  }
+}
